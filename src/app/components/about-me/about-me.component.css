@@ -44,19 +44,6 @@
     cursor: pointer;
 }
 
-.primary {
-    background-color: var(--accent-col);
-    color: #fff;
-    border: 2px solid var(--accent-col);
-    transition: ease-out .3s;
-}
-
-.primary:hover {
-    background-color: #fff;
-    color: #000;
-    border: 2px solid var(--accent-col);
-}
-
 .secondary {
     background-color: #fff;
     transition: ease-out .3s;

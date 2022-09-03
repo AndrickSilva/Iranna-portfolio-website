@@ -1,0 +1,81 @@
+.resume-container {
+    background-color: var(--primary-col);
+    min-height: 100vh;
+}
+
+.resume-main {
+    max-width: 50em;
+    margin: 0 auto;
+    padding: 5em 0;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    padding-bottom: 5em;
+}
+
+.header-grp {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.resume-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: var(--shadow);
+    /* min-height: 50vh; */
+    min-width: 60%;
+    padding: 6em 4em;
+    margin-top: 2em;
+}
+
+.card-left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5em;
+    align-self: flex-start;
+}
+
+.card-left p:nth-child(3) {
+    margin-top: 1em;
+}
+
+.card-right {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    font-size: 1rem;
+    line-height: 25.5px;
+    /* align-self: flex-end; */
+}
+
+.skill-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: var(--shadow);
+    min-width: 60%;
+    padding: 6em 4em;
+    margin-top: 2em;
+}
+
+.top-sec {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.skill-wrap {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    margin-top: 2em;
+    font-size: small;
+}
