@@ -18,7 +18,7 @@
     justify-content: center;
     flex-direction: column;
     gap: 1em;
-    padding: 0 4em;
+    padding-left: 7em;
 }
 
 .right-section h1 {
@@ -90,9 +90,9 @@
     background-color: var(--secondary-col);
     position: absolute;
     top: 5em;
-    left: 16em;
+    left: 18.5em;
     box-shadow: var(--shadow);
-    min-width: 25em;
+    min-width: 24em;
     /* min-height: 75vh; */
 
 }
