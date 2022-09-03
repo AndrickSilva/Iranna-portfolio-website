@@ -38,7 +38,17 @@ nav {
     font-size: 1rem;
 }
 
-.right-nav ul li:hover {
+.right-nav ul a {
+    text-decoration: none;
+    color: #000;
+}
+
+.right-nav ul a:hover {
+    color: var(--accent-col);
+    cursor: pointer;
+}
+
+.right-nav.active {
     color: var(--accent-col);
     cursor: pointer;
 }
