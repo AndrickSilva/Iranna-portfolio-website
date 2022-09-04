@@ -84,7 +84,7 @@
 
 }
 
-.card {
+.profile-card {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -94,27 +94,27 @@
     margin: 2.5em 0;
 }
 
-.card img {
+.profile-card img {
     aspect-ratio: 1/1;
     width: 205px;
     height: 205px;
     border-radius: 100%;
 }
 
-.card h2 {
+.profile-card h2 {
     margin-top: 1em;
     font-size: 1.65rem;
     font-weight: bold;
     line-height: 32.4px
 }
 
-.card hr {
+.profile-card hr {
     border-top: 2px solid var(--accent-col);
     width: 25%;
     margin: 2em 0;
 }
 
-.card span {
+.profile-card span {
     text-align: center;
     letter-spacing: 0.25em;
     font-size: 1.1rem;
