@@ -50,3 +50,39 @@
 .mt {
     margin-top: 5em;
 }
+
+.resume-container {
+    background-color: var(--primary-col);
+    min-height: 100vh;
+}
+
+.resume-main {
+    max-width: 50em;
+    margin: 0 auto;
+    padding: 5em 0;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    padding-bottom: 5em;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: var(--shadow);
+    margin-top: 2em;
+    min-width: 60%;
+}
+
+.side-line::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 55px;
+    background-color: var(--accent-col);
+    left: 0;
+    top: 0;
+}

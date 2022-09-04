@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectCompComponent implements OnInit {
 
+  CardImg: string = '../assets/img/project1.jpg'
+
   constructor() { }
 
   ngOnInit(): void {
