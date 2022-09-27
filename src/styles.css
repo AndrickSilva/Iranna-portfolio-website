@@ -54,6 +54,7 @@
 .resume-container {
     background-color: var(--primary-col);
     min-height: 100vh;
+    padding: 0 2em;
 }
 
 .resume-main {
