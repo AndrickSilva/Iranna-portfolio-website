@@ -42,3 +42,20 @@
     gap: 1em;
     margin-top: .5em;
 }
+
+@media screen and (max-width: 805px) {
+    /* .right-foo {
+        justify-content: flex-end;
+        flex-direction: column;
+        gap: 2em;
+    } */
+
+    .footer-container {
+        padding: 2em 1em;
+        gap: 1em;
+    }
+
+    /* .left-foo {
+        align-self: flex-start;
+    } */
+}
