@@ -48,7 +48,6 @@
     background-color: #fff;
     transition: ease-out .3s;
     border: 1px solid #000;
-
 }
 
 .secondary:hover {
@@ -138,8 +137,9 @@
 
 @media screen and (max-width: 1310px) {
     .card-container {
-        top: 0em;
-        left: 2.5em;
+        max-width: 22em;
+        position: unset;
+        margin: 0em 1em;
     }
 }
 
@@ -165,8 +165,8 @@
 
     .right-section {
         background-color: var(--primary-col);
-        min-height: 120vh;
-        padding-top: 25em;
+        min-height: 100vh;
+        /* padding-top: 25em; */
         padding-bottom: 5em;
     }
 
@@ -174,5 +174,9 @@
         background-color: #fff;
         min-height: 20vh;
 
+    }
+
+    .secondary {
+        background-color: var(--primary-col);
     }
 }

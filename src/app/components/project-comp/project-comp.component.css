@@ -33,3 +33,20 @@
     width: 100%;
     height: 25em;
 }
+
+
+@media screen and (max-width: 660px) {
+
+    .card {
+        flex-direction: column;
+    }
+
+    .project-left {
+        width: unset;
+        padding: 2em 3em;
+    }
+
+    .project-right {
+        width: unset;
+    }
+}

@@ -44,18 +44,21 @@
 }
 
 @media screen and (max-width: 805px) {
-    /* .right-foo {
-        justify-content: flex-end;
-        flex-direction: column;
-        gap: 2em;
-    } */
-
-    .footer-container {
-        padding: 2em 1em;
-        gap: 1em;
+    .right-foo {
+        width: unset;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        justify-content: center;
     }
 
-    /* .left-foo {
-        align-self: flex-start;
-    } */
+    .footer-container {
+        padding: 3em 2em;
+        gap: 2em;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+
+    .left-foo {
+        width: unset;
+    }
 }
