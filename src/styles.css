@@ -87,3 +87,23 @@
     left: 0;
     top: 0;
 }
+
+
+
+@media screen and (max-width: 920px) {
+
+
+
+    .right-nav {
+        display: none;
+    }
+
+    .right-section {
+        padding-left: 0;
+        padding: 0em 1em;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+}

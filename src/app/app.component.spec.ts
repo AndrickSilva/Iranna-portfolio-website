@@ -32,7 +32,7 @@ describe('AppComponent', () => {
   //   const fixture = TestBed.createComponent(AppComponent);
   //   fixture.detectChanges();
   //   const compiled = fixture.nativeElement as HTMLElement;
-  //   expect(compiled.querySelector('.content span')?.textContent).toContain('practice-website app is running!');
+  //   expect(compiled.querySelector('d.content span')?.textContent).toContain('practice-website app is running!');
   // });
 
 });

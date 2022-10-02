@@ -77,9 +77,9 @@
     background-color: var(--secondary-col);
     position: absolute;
     top: 5em;
-    left: 18.5em;
+    left: 17.5em;
     box-shadow: var(--shadow);
-    min-width: 24em;
+    min-width: 22em;
     /* min-height: 75vh; */
 
 }
@@ -91,7 +91,7 @@
     flex-direction: column;
     background-color: var(--secondary-col);
     /* min-height: 80%; */
-    margin: 2.5em 0;
+    margin: 2em 0;
 }
 
 .profile-card img {
@@ -134,4 +134,32 @@
 .card-footer i {
     font-size: 1.3em;
     cursor: pointer;
+}
+
+@media screen and (max-width: 1310px) {
+    .card-container {
+        top: 5em;
+        left: 2.5em;
+    }
+}
+
+
+@media screen and (max-width: 920px) {
+
+    nav {
+        padding: 2.5em 1em 2.5em 1em;
+    }
+
+    .right-section {
+        padding-left: 0;
+        padding: 0em 2em;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero-text {
+        max-width: 100%;
+    }
 }
