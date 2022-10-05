@@ -7,6 +7,7 @@
     background-color: var(--primary-col);
     min-width: 40%;
     min-height: 100vh;
+    padding: 0em 1em;
     /* position: absolute; */
 }
 
@@ -78,7 +79,7 @@
     top: 5em;
     left: 17.5em;
     box-shadow: var(--shadow);
-    min-width: 22em;
+    max-width: 22em;
     /* min-height: 75vh; */
 
 }
@@ -139,7 +140,8 @@
     .card-container {
         max-width: 22em;
         position: unset;
-        margin: 0em 1em;
+        margin: 0 auto;
+        /* margin: 0em 1em; */
     }
 }
 
@@ -173,10 +175,17 @@
     .left-section {
         background-color: #fff;
         min-height: 20vh;
-
+        padding: 0em 1em;
     }
 
     .secondary {
         background-color: var(--primary-col);
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .card-container {
+        max-width: 100%;
     }
 }

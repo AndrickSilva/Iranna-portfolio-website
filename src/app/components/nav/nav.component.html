@@ -1,11 +1,12 @@
 <nav>
+    <fa-icon [class]="classBind" (click)="navBar()" id="nav"></fa-icon>
     <div class="left-nav">
         <div class="box"></div>
         <h2>Iranna K. Hangnalli <span>/ BSc. Computer Science</span></h2>
     </div>
     <div class="right-nav">
         <ul>
-            <a routerLink="/"> ABOUT ME</a>
+            <a routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"> ABOUT ME</a>
             <a routerLink="/resume" routerLinkActive="active">RESUME</a>
             <a routerLink="/projectComp" routerLinkActive="active">PROJECTS</a>
             <a routerLink="/contact" routerLinkActive="active">CONTACT</a>

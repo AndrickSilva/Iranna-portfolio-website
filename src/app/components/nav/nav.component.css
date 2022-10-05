@@ -17,6 +17,8 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 0.7em;
+    max-width: 80%;
+
 }
 
 .left-nav h2 span {
@@ -48,7 +50,25 @@ nav {
     cursor: pointer;
 }
 
+#nav {
+    display: none;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 920px) {
+
+    .right-nav {
+        display: none;
+    }
+
+    #nav {
+        display: block;
+        position: fixed;
+        top: 30px;
+        right: 30px;
+        color: var(--accent-col);
+        font-size: 2em;
+    }
 
     nav {
         padding: 2.5em 1em 2.5em 1em;

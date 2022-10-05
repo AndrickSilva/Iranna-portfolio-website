@@ -7,9 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavComponent implements OnInit {
 
+  classBind: any = 'fa fa-bars'
   constructor() { }
 
   ngOnInit(): void {
   }
-
+  navBar() {
+    this.classBind = this.classBind == 'fa fa-bars' ? 'fa fa-xmark' : 'fa fa-bars'
+  }
 }
