@@ -55,12 +55,16 @@ nav {
     cursor: pointer;
 }
 
-@media screen and (max-width: 920px) {
+.hide{
+    display: block;
+}
 
-    .right-nav{
+@media screen and (max-width: 920px) {
+    
+    .hide{
         display: none;
     }
-
+    
     .right-nav ul {
         flex-direction: column;
     }
