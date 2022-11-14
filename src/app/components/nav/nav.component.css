@@ -57,6 +57,10 @@ nav {
 
 @media screen and (max-width: 920px) {
 
+    .right-nav{
+        display: none;
+    }
+
     .right-nav ul {
         flex-direction: column;
     }
