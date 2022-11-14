@@ -71,7 +71,7 @@ nav {
     #nav {
         display: block;
         position: fixed;
-        top: 30px;
+        top: 45px;
         right: 30px;
         color: var(--accent-col);
         font-size: 2em;
