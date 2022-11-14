@@ -3,7 +3,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 2.5em 5em 2.5em 1em;
-    /* border: 2px solid red; */
     position: sticky;
     position: -webkit-sticky;
     top: 0;
@@ -17,7 +16,7 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 0.7em;
-    max-width: 80%;
+    max-width: 18em;
 
 }
 
@@ -64,7 +63,7 @@ nav {
     .hide{
         display: none;
     }
-    
+
     .right-nav ul {
         flex-direction: column;
     }
@@ -82,11 +81,16 @@ nav {
         padding: 2.5em 1em 2.5em 1em;
         flex-direction: column;
         gap: 4em;
+        /* align-items: flex-start; */
     }
 
     .right-nav ul {
         justify-content: revert;
         gap: 5em;
         height: 100vh;
+    }
+
+    .left-nav{
+        align-self: flex-start
     }
 }

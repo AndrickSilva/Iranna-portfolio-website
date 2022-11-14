@@ -16,8 +16,6 @@ export class NavComponent implements OnInit {
 
   navBar() {
     this.hide = this.hide == "hide" ? this.hide = "" : this.hide ="hide" 
-    // this.hide =!this.hide
-    // this.hide = this.hide == true ? this.hide = false : this.hide = true
     this.classBind = this.classBind == 'fa fa-bars' ? 'fa fa-xmark' : 'fa fa-bars'
   }
 }

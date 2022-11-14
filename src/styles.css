@@ -16,8 +16,8 @@
 }
 
 .box {
-    width: 1em;
-    height: 1em;
+    width: 20px;
+    height: 16px;
     background-color: var(--accent-col);
 }
 
