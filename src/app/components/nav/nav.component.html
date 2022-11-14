@@ -6,10 +6,10 @@
     </div>
     <div class="right-nav" [ngClass]="hide">
         <ul>
-            <a routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"> ABOUT ME</a>
-            <a routerLink="/resume" routerLinkActive="active">RESUME</a>
-            <a routerLink="/projectComp" routerLinkActive="active">PROJECTS</a>
-            <a routerLink="/contact" routerLinkActive="active">CONTACT</a>
+            <a (click)="navBar()" routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"> ABOUT ME</a>
+            <a (click)="navBar()" routerLink="/resume" routerLinkActive="active">RESUME</a>
+            <a (click)="navBar()" routerLink="/projectComp" routerLinkActive="active">PROJECTS</a>
+            <a (click)="navBar()" routerLink="/contact" routerLinkActive="active">CONTACT</a>
         </ul>
     </div>
 </nav>
